@@ -1,5 +1,31 @@
-## Next.js App Router Course - Starter
+# Acme Dashboard
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Пример современного веб-приложения на базе **Next.js App Router**, созданный в рамках официального курса от Vercel.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## 📦 Технологии
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **PostgreSQL**
+- **Tailwind CSS**
+- **NextAuth.js**
+- **React Server Actions**
+- **Edge Middleware**
+- **Metadata API**
+
+## ⚙️ Функциональность
+
+- Защищённая панель пользователя (`/dashboard`)
+- CRUD-интерфейс для инвойсов
+- Поиск и пагинация с URL-параметрами
+- Обработка ошибок и 404 страниц
+- Серверная валидация форм
+- Потоковая загрузка данных (streaming)\
+
+## 📁 Структура
+
+Ключевые директории:
+
+- `app/` — маршруты, layout, страницы и серверные actions
+- `app/ui/` — переиспользуемые UI-компоненты
+- `app/lib/` — утилиты, моковые данные и вспомогательные функции
